@@ -1,0 +1,1602 @@
+@font-face {
+	font-family: 'Calleo-Trial Light'; 
+	src: url(../fonts/Calleo-Trial-Light.ttf); 
+}
+@font-face {
+	font-family: 'stolzl_light Light'; 
+	src: url(../fonts/stolzl_light.ttf); 
+}
+.href_statiks {
+    width: 411px;
+    padding-left: 91px;
+    font-size: 15px;
+    color: #000;
+    font-family: 'Calleo-Trial Light';
+    text-decoration: none;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: #E9E5FF;
+}
+headerprofile {
+    padding: 37px 10px 0px 10px;
+    max-width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.name h1{
+    margin: 0;
+    color: #FFFFFF;
+    font-size: 24px;
+    font-family: 'stolzl_light Light'; 
+    font-weight: 100;
+}
+.info_text p {
+    margin-top: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #FFFFFF;
+    font-family: 'Calleo-Trial Light';
+    font-weight: 300;
+}
+.theme{
+    width: 39px;
+}
+.theme img{
+    width: 100%;
+}
+.main_profile{
+    justify-content: center;
+    border-radius: 83px 83px 38px 38px;
+    display: flex;
+    background: url("../img/Group 42.svg") no-repeat;
+    width: 80%;
+    flex-wrap: wrap;
+    margin: 74px auto 0 auto;
+    background-size: cover;
+}
+.profile_user {
+    margin: 0 auto;
+    width: 100%;
+}
+.info_text div{
+    display: flex;
+}
+.name {
+    margin-top: 59px;
+    width: 100%;
+    text-align: center;
+}
+.photo {
+    border-radius: 17px;
+    /* width: 37%; */
+    width: 300px;
+    /* margin-right: 0%; */
+    /* height: 100%; */
+    right: 53px;
+    position: relative;
+    /* left: 24vw; */
+}
+.photo img {
+    border-radius: 17px;
+    /* max-width: 370px; */
+    width: 100%;
+    /* height: 100%; */
+}
+.info_text {
+    position: relative;
+    width: 228px;
+    left: 4px;
+}
+.info {
+    width: 700px;
+    padding-top: 38px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.menu_logo{
+    display: flex;
+    align-items: center;
+}
+.authorization_theme{
+    display: flex;
+    align-items: center;
+}
+.table{
+    border-radius: 38px 38px 38px 38px;
+    display: flex;
+    background: url("../img/Group 42 (1).svg") no-repeat;
+    width: 80%;
+    height: 60vh;
+    flex-wrap: wrap;
+    margin: 17px auto 0 auto;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+.input-file {
+	position: relative;
+    display: flex;
+    justify-content: center;
+}
+.button_profile_container {
+    margin-top: 62px;
+    width: 100%;
+    padding-bottom: 103px;
+    display: flex;
+    justify-content: center;
+}
+header {
+    padding: 37px 10px 0px 10px;
+    max-width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.input-file span {
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    right: 22px;
+    position: relative;
+    outline: none;
+    width: 586px;
+    text-decoration: none;
+    font-size: 14px;
+    vertical-align: middle;
+    color: rgb(255 255 255);
+    text-align: center;
+    border-radius: 16px;
+    background-color: transparent;
+    line-height: 22px;
+    height: 52px;
+    font-family: 'Calleo-Trial Light';
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border: 1px solid #E9E5FF;
+    margin: 0;
+    transition: background-color 0.2s;
+}
+.input-file input[type=file] {
+	position: absolute;
+	z-index: -1;
+	opacity: 0;
+	display: block;
+	width: 0;
+	height: 0;
+}
+
+
+
+
+
+
+
+
+.users {
+    outline: none;
+    width: 231px;
+    cursor: pointer;
+    display: block;
+    font-size: 14px;
+    font-family: 'stolzl_light Light';
+    color: #000000;
+    line-height: 1.3;
+    padding: 0.6em 1.4em 0.5em 0.8em;
+    box-sizing: border-box;
+    margin-right: 30px;
+    border: none;
+    border-radius: 14px;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #E9E5FF;
+    background-image: url(../img/User.svg);
+    background-repeat: no-repeat, repeat;
+    background-position: right 1.69em top 50%, 0 0;
+    background-size: 13px;
+    height: 39px;
+}
+.time_obed{
+    outline: none;
+    width: 262px;
+    cursor: pointer;
+    display: block;
+    font-size: 14px;
+    font-family: 'stolzl_light Light';
+    color: #000000;
+    line-height: 1.3;
+    padding: 0.6em 1.4em 0.5em 0.8em;
+    box-sizing: border-box;
+    margin-right: 30px;
+    border: none;
+    border-radius: 14px;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #E9E5FF;
+    background-image: url("../img/Bx Down Arrow.svg");
+    background-repeat: no-repeat, repeat;
+    background-position: right 1.69em top 50%, 0 0;
+    background-size: 13px;
+    height: 39px;
+}
+.bottom_block {
+    margin: 0 auto;
+    width: 91%;
+    height: 80%;
+    overflow: auto;
+}
+.table_info{
+    background-color: transparent;
+    min-width: 1365px;
+    height: 100%;
+}
+.bottom_block::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+}
+
+.bottom_block::-webkit-scrollbar-track {
+    background: transparent;
+    border-radius: 10px;
+}
+
+.bottom_block::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: #E9E5FF;
+}
+.time_seans{
+    margin-left: auto;
+    outline: none;
+    width: 238px;
+    cursor: pointer;
+    display: block;
+    font-size: 14px;
+    font-family: 'stolzl_light Light';
+    color: #000000;
+    line-height: 1.3;
+    padding: 0.6em 1.4em 0.5em 0.8em;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 14px;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #E9E5FF;
+    background-image: url("../img/Bx Down Arrow.svg");
+    background-repeat: no-repeat, repeat;
+    background-position: right 1.69em top 50%, 0 0;
+    background-size: 13px;
+    height: 39px;
+}
+td span {
+    display: inline-block;
+    position: relative;
+    width: 12px;
+    bottom: 4px;
+    height: 1px;
+    background-color: #E9E5FF;
+}
+.top_block{
+    height: 39px;
+    width: 90%;
+    margin: 39px auto 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.top_block h1{
+    font-size: 24px;
+    color: #FFFFFF;
+    font-family: 'stolzl_light Light';
+    font-weight: 100;
+}
+.menuProfileUpdate{
+    display: none;
+    cursor: pointer;
+}
+.lineProfile{
+    padding: 0px 44px;
+    width: 41%;
+}
+.lineProfile img{
+    height: 1px;
+    width: 100%;
+}
+.logoUpdateProfile{
+    width: 178px;
+}
+.logoUpdateProfile img{
+    width: 100%;
+}
+.authorization{
+    cursor: pointer;
+    margin-right: 73px;
+    width: 157px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 39px;
+    background: url("../img/Group 23.png") no-repeat;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);;
+    font-family: Calleo-Trial Light;
+}
+.main_menu a:last-child {
+    display: none;
+}
+.name_page {
+    border-radius: 46px 46px 38px 38px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    background: url("../img/Group 38 (5).svg") no-repeat;
+    width: 80%;
+    height: 7.7vw;
+    margin: 3vw auto 0 auto;
+    background-size: cover;
+}
+.name_page h1{
+    font-weight: 300;
+    font-family: 'stolzl_light Light';
+    font-size: 24px;
+    color: #FFFFFF;
+}
+.authorization_phone{
+    display: none;
+    cursor: pointer;
+    margin-right: 73px;
+    width: 157px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 39px;
+    background: url("../img/Group 23.png") no-repeat;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);;
+    font-family: Calleo-Trial Light;
+}
+.theme{
+    cursor: pointer;
+}
+.main_block{
+    max-width: 80%;
+    margin: 72px auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 10px 0px 10px;
+}
+.schedule{
+    background: url("../img/Group 24 (2).png") no-repeat;
+    width: 70.9%;
+    height: 19.3vw;
+    flex-wrap: wrap;
+    margin-right: 17px;
+    background-size: cover;
+}
+.schedule .fon_img{
+    width: 100%;
+    height: 100%;
+}
+.schedule .fon_img img{
+    width: 100%;
+    height: 100%;
+}
+.table_table {
+	width: 100%;
+	margin-bottom: 20px;
+	border-collapse: collapse; 
+}
+.table_table th {
+    font-family: 'stolzl_light Light'; 
+    color: white;
+    font-weight: 100;
+    padding-bottom: 16px;
+    background: transparent;
+    width: 195px;
+}
+.table_table td {
+    width: 187px;
+    text-align: center;
+    font-family: 'stolzl_light Light'; 
+    font-size: 15px;
+    font-weight: 300;
+    color: white;
+    border: 1px solid #dddddd;
+    height: 80px;
+}
+.schedule p{
+    color: #FFFFFF;
+    font-family: 'stolzl_light Light'; 
+    margin: 0;
+    font-size: 1vw;
+}
+.schedule div.main_text{
+    top: -88%;
+    position: relative;
+    width: 41%;
+    padding-left: 4.8%;
+}
+.schedule button{
+    top: -31%;
+    position: relative;
+    padding: 8px 35px;
+    font-size: 1vw;
+    color: #FFFFFF;
+    border-top-right-radius: 5px;
+    border-left: none;
+    border-right: 1px solid;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    font-family: 'stolzl_light Light';
+    letter-spacing: 1px;
+    background: transparent;
+    cursor: pointer;
+    margin-left: 5.4%;
+}
+.profile{
+    display: flex;
+    flex-wrap: wrap;
+    background: url("../img/Group 27 (1).png") no-repeat;
+    width: 100%;
+    height: 19.3vw;
+    background-size: cover;
+}
+.profile img{
+    width: 84%;
+    height: 84%;
+    flex-grow: 1;
+}
+.busy_day{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 17px;
+    margin-right: 17px;
+    width: 28%;
+    height: 19.3vw;
+    background: url("../img/Group 28.png") no-repeat;
+    background-size: cover;
+}
+.busy_day img{
+    width: 100%;
+    height: 100%;
+}
+.main_site{
+    background: url("../img/Group 29.png") no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 17px;
+    width: 70.9%;
+    height: 19.3vw;
+}
+.main_site img{
+    width: 100%;
+    height: 100%;
+}
+.profile p{
+    color: #FFFFFF;
+    font-family: 'stolzl_light Light'; 
+    margin: 0;
+    font-size: 1vw;
+}
+.head_block{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.foot_block{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.profile div{
+    display: flex;
+    height: 16%;
+    align-items: end;
+    margin: 0 auto;
+}
+.busy_day p{
+    color: #FFFFFF;
+    font-family: 'stolzl_light Light';
+    margin-left: 13.2%;
+    font-size: 1vw;
+    width: 100%;
+    line-height: 1.5vw;
+    position: relative;
+}
+.busy_day p:last-child{
+    color: #FFFFFF;
+    font-family: 'stolzl_light Light';
+    margin: 0;
+    margin-top: -0.8vw;
+    font-size: 1vw;
+    margin-left: 13.2%;
+    width: 100%;
+}
+.busy_day h1{
+    color: #FFFFFF;
+    font-family: 'stolzl_light Light';
+    left: 13.2%;
+    margin: 0;
+    position: relative;
+    font-size: 7vw;
+    width: 100%;
+}
+.main_site .main_text{
+    top: -88%;
+    position: relative;
+    width: 100%;
+    padding-left: 4.8%;
+}
+.main_site button{
+    top: -31%;
+    position: relative;
+    padding: 8px 35px;
+    font-size: 1vw;
+    color: #FFFFFF;
+    border-top-right-radius: 5px;
+    border-left: none;
+    border-right: 1px solid;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    font-family: 'stolzl_light Light';
+    letter-spacing: 1px;
+    background: transparent;
+    cursor: pointer;
+    margin-left: 5.4%;
+}
+.main_site p{
+    color: #FFFFFF;
+    font-family: 'stolzl_light Light'; 
+    margin: 0;
+    font-size: 1vw;
+}
+
+
+
+.block_menu{
+    display: none;
+    background: url("../img/image 1.png") no-repeat;
+    position: fixed;
+    width: 0vw;
+    opacity: 0;
+    text-align: center;
+    height: 100vh;
+    z-index: 2;
+    background-size: cover;
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
+    animation-name: openMenu;
+}
+.main_menu{
+    padding-top: 4vw;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.main_menu a{
+    font-size: 16px;
+    padding-top: 29px;
+    width: 100%;
+    color: black;
+    text-decoration: none;
+    font-family: Calleo-Trial Light;
+}
+.black_menu{
+    display: none;
+    z-index: 1;
+    position: fixed;
+    width: 100vw;
+    background: #000;
+    opacity: 0.59;
+    height: 100vh;
+    animation-duration: 0.1s;
+    animation-fill-mode: forwards;
+    animation-name: openMenuBlack;
+}
+.close{
+    display: none;
+    position: relative;
+    left: 19vw;
+    top: 4vw;
+}
+
+
+@media (max-width: 1401px) { 
+    .schedule button {
+        font-size: 14px;
+    }
+    .schedule p {
+        color: #FFFFFF;
+        font-family: 'stolzl_light Light';
+        margin: 0;
+        font-size: 14px;
+    }
+    .profile div p{
+        font-size: 14px;
+    }
+    .busy_day p{
+        font-size: 14px;
+    }
+    .main_site .main_text p{
+        font-size: 14px;
+    }
+    .main_site button {
+        font-size: 14px;
+    }
+    .authorization{
+        font-size: 14px;
+    }
+    .main_menu a{
+        font-size: 14px;
+    }
+ }
+ @media (max-width: 1312px) {
+    .href_statiks {
+        width: 264px;
+        padding-left: 91px;
+        font-size: 15px;
+        color: #000;
+        font-family: 'Calleo-Trial Light';
+        text-decoration: none;
+    }
+  }
+
+ @media (max-width: 1212px) { 
+    .schedule p {
+        width: 60vw;
+    }
+ }
+
+ @keyframes openMenu {
+    0%{
+        display: block;
+        width: 0vw;
+        opacity: 0;   
+    }
+    100%{
+        width: 23vw;
+        display: block;
+        opacity: 1;
+    }
+}
+@keyframes openMenuBlack {
+    0%{
+        display: block;
+        opacity: 0;   
+    }
+    100%{
+        opacity: 0.59;
+        display: block;
+    }
+}
+
+@keyframes closeMenu {
+    0%{
+        width: 23vw;
+        opacity: 1;   
+    }
+    100%{
+        width: 0vw;
+        opacity: 0;
+        display: none;
+    }
+}
+@keyframes closeMenuBlack {
+    0%{
+        opacity: 0.59;   
+    }
+    100%{
+        opacity: 0;
+        display: none;
+    }
+}
+ @media (max-width: 1105px) {
+    .logoUpdateProfile {
+        width: 178px;
+        padding-left: 55px;
+    }
+    .menuProfileUpdate{
+        display: block;
+        cursor: pointer;
+    }
+    .href_statiks {
+        padding-left: 91px;
+        display: none;
+        font-size: 15px;
+        color: #000;
+        font-family: 'Calleo-Trial Light';
+        text-decoration: none;
+    }
+    .info {
+        display: block;
+        width: 100%;
+        padding-top: 38px;
+        margin: 0 auto;
+    }
+    .photo {
+        right: 0px;
+        /* width: 37%; */
+        width: 300px;
+        /* margin-right: 0%; */
+        /* height: 100%; */
+        margin: 0 auto;
+        /* position: relative; */
+        /* left: 24vw; */
+    }
+    .info_text {
+        text-align: center;
+        /* position: relative; */
+        width: 228px;
+        margin: 0 auto;
+        left: 4px;
+    }
+    .button_profile_container {
+        padding-top: 43px;
+        margin-top: 62px;
+        /* width: 100%; */
+        margin: 0 auto;
+        padding-bottom: 103px;
+        display: flex;
+        justify-content: center;
+    }
+    .input-file span {
+        cursor: pointer;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        right: 0px;
+        position: relative;
+        outline: none;
+        width: 100%;
+        text-decoration: none;
+        font-size: 14px;
+        vertical-align: middle;
+        color: rgb(255 255 255);
+        text-align: center;
+        border-radius: 16px;
+        background-color: transparent;
+        line-height: 22px;
+        height: 52px;
+        font-family: 'Calleo-Trial Light';
+        padding: 10px 20px;
+        box-sizing: border-box;
+        border: 1px solid #E9E5FF;
+        margin: 0;
+        transition: background-color 0.2s;
+    }
+    .main_profile {
+        justify-content: center;
+        border-radius: 83px 83px 38px 38px;
+        display: flex;
+        background: url("../img/Group 43 (1).svg") no-repeat;
+        width: 80%;
+        flex-wrap: wrap;
+        margin: 17px auto 0 auto;
+        background-size: cover;
+    }
+    .name_page {
+        border-radius: 46px 46px 38px 38px;
+        justify-content: center;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        background: url("../img/Group\ 38 (5).svg") no-repeat;
+        width: 80%;
+        height: 12.7vw;
+        margin: 3vw auto 0 auto;
+        background-size: cover;
+    }
+    .close{
+        display: block;
+        position: relative;
+        left: 19vw;
+        top: 4vw;
+    }
+    .schedule {
+        width: 100%;
+        display: flex;
+        text-align: center;
+        height: 27.3vw;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-right: 0px;
+        background-size: cover;
+    }
+    .schedule button {
+        top: -42%;
+        position: relative;
+        padding: 8px 35px;
+        color: #FFFFFF;
+        border-top-right-radius: 5px;
+        border-left: none;
+        border-right: 1px solid;
+        border-top: 1px solid;
+        border-bottom: 1px solid;
+        font-family: 'stolzl_light Light';
+        letter-spacing: 1px;
+        background: transparent;
+        cursor: pointer;
+        margin-left: 0%;
+    }
+    .schedule p {
+        color: #FFFFFF;
+        font-family: 'stolzl_light Light';
+        margin: 14px 0px;
+        font-size: 14px;
+        width: 100%;
+    }
+    .schedule div.main_text {
+        top: -88%;
+        position: relative;
+        width: 100%;
+        padding-left: 0%;
+    }
+    .head_block {
+        width: 100%;
+        flex-wrap: wrap;
+        display: flex;
+        align-items: center;
+    }
+    .profile {
+        background: url("../img/Group 29 (5).svg") no-repeat;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 27.3vw;
+        background-size: cover;
+    }
+    .profile div {
+        padding-top: 5%;
+        display: flex;
+        height: auto;
+        width: 100%;
+        justify-content: center;
+        align-items: end;
+        margin: 0 auto;
+    }
+    .profile img {
+        padding-top: 2%;
+        margin: 0 auto;
+        width: 26vw;
+        height: auto;
+        flex-grow: 0;
+    }
+    .foot_block {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .busy_day {
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 17px;
+        margin-right: 0px;
+        width: 100%;
+        height: 27.3vw;
+        background: url("../img/Group 30 (2).svg") no-repeat;
+        background-size: cover;
+    }
+    .schedule div.main_text {
+        top: -88%;
+        position: relative;
+        width: 100%;
+        padding-left: 0;
+    }
+    .busy_day p {
+        margin-left: 0;
+        margin-top: 5%;
+        margin-bottom: 0;
+        line-height: 2vw;
+    }
+    .busy_day p:last-child {
+        margin-left: 0;
+        font-size: 14px;
+        margin: 0;
+        position: relative;
+        margin-top: 0;
+        top: -7%;
+    }
+    .busy_day h1 {
+        color: #FFFFFF;
+        font-family: 'stolzl_light Light';
+        left: 0;
+        margin: 0;
+        position: relative;
+        font-size: 9vw;
+        width: 100%;
+    }
+    .main_site {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 17px;
+        width: 100%;
+        height: 27.3vw;
+    }
+    .main_site .main_text {
+        top: -88%;
+        text-align: center;
+        position: relative;
+        width: 100%;
+        padding-left: 0;
+    }
+    .main_site button {
+        top: -31%;
+        position: relative;
+        padding: 8px 35px;
+        font-size: 14px;
+        color: #FFFFFF;
+        border-top-right-radius: 5px;
+        border-left: none;
+        border-right: 1px solid;
+        border-top: 1px solid;
+        border-bottom: 1px solid;
+        font-family: 'stolzl_light Light';
+        letter-spacing: 1px;
+        background: transparent;
+        cursor: pointer;
+        margin: 0 auto;
+        margin-left: auto;
+    }
+    @keyframes openMenu {
+        0%{
+            display: block;
+            width: 50vw;
+            opacity: 0;   
+        }
+        100%{
+            width: 50vw;
+            display: block;
+            opacity: 1;
+        }
+    }
+    @keyframes closeMenu {
+        0%{
+            width: 50vw;
+            opacity: 0;   
+        }
+        100%{
+            width: 0vw;
+            opacity: 0;
+            display: none;
+        }
+    }
+ }
+ @media (max-width: 1070px) { 
+    .top_block {
+        height: 39px;
+        flex-wrap: wrap;
+        width: 90%;
+        justify-content: center;
+        margin: 39px auto 0 auto;
+        display: flex;
+    }
+    .users {
+        margin: 0 auto 15px auto;
+        outline: none;
+        width: 231px;
+        cursor: pointer;
+        display: block;
+        font-size: 14px;
+        font-family: 'stolzl_light Light';
+        color: #000000;
+        line-height: 1.3;
+        padding: 0.6em 1.4em 0.5em 0.8em;
+        box-sizing: border-box;
+        border: none;
+        border-radius: 14px;
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        appearance: none;
+        background-color: #E9E5FF;
+        background-image: url(../img/User.svg);
+        background-repeat: no-repeat, repeat;
+        background-position: right 1.69em top 50%, 0 0;
+        background-size: 13px;
+        height: 39px;
+    }
+    .top_block {
+        height: auto;
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+        width: 100%;
+        margin: 39px auto 0 auto;
+        display: flex;
+    }
+    .table {
+        border-radius: 38px 38px 38px 38px;
+        display: flex;
+        background: url("../img/Group 44 (1).svg") no-repeat;
+        width: 80%;
+        height: 100vh;
+        flex-wrap: wrap;
+        margin: 17px auto 30px auto;
+        background-size: cover;
+    }
+    .time_seans {
+        margin: 0 auto 15px auto;
+        outline: none;
+        width: 238px;
+        cursor: pointer;
+        display: block;
+        font-size: 14px;
+        font-family: 'stolzl_light Light';
+        color: #000000;
+        line-height: 1.3;
+        padding: 0.6em 1.4em 0.5em 0.8em;
+        box-sizing: border-box;
+        border: none;
+        border-radius: 14px;
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        appearance: none;
+        background-color: #E9E5FF;
+        background-image: url("../img/Bx Down Arrow.svg");
+        background-repeat: no-repeat, repeat;
+        background-position: right 1.69em top 50%, 0 0;
+        background-size: 13px;
+        height: 39px;
+    }
+    .time_obed {
+        outline: none;
+        margin: 0 auto 15px auto;
+        width: 262px;
+        cursor: pointer;
+        display: block;
+        font-size: 14px;
+        font-family: 'stolzl_light Light';
+        color: #000000;
+        line-height: 1.3;
+        padding: 0.6em 1.4em 0.5em 0.8em;
+        box-sizing: border-box;
+        border: none;
+        border-radius: 14px;
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        appearance: none;
+        background-color: #E9E5FF;
+        background-image: url("../img/Bx Down Arrow.svg");
+        background-repeat: no-repeat, repeat;
+        background-position: right 1.69em top 50%, 0 0;
+        background-size: 13px;
+        height: 39px;
+    }
+ }
+ @media (max-width: 810px) { 
+    .name_page {
+        border-radius: 46px 46px 38px 38px;
+        justify-content: center;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        width: 80%;
+        height: 16.7vw;
+        margin: 3vw auto 0 auto;
+        background-size: cover;
+    }
+    .schedule button {
+        top: -48%;
+        position: relative;
+        padding: 8px 35px;
+        color: #FFFFFF;
+        border-top-right-radius: 5px;
+        border-left: none;
+        border-right: 1px solid;
+        border-top: 1px solid;
+        border-bottom: 1px solid;
+        font-family: 'stolzl_light Light';
+        letter-spacing: 1px;
+        background: transparent;
+        cursor: pointer;
+        margin-left: 0%;
+    }
+    .main_site button {
+        top: -37%;
+        position: relative;
+        padding: 8px 35px;
+        font-size: 14px;
+        color: #FFFFFF;
+        border-top-right-radius: 5px;
+        border-left: none;
+        border-right: 1px solid;
+        border-top: 1px solid;
+        border-bottom: 1px solid;
+        font-family: 'stolzl_light Light';
+        letter-spacing: 1px;
+        background: transparent;
+        cursor: pointer;
+        margin: 0 auto;
+        margin-left: auto;
+    }
+ }
+ @media (max-width: 810px) {
+    .lineProfile {
+        padding: 0px 44px;
+        width: 41%;
+        display: none;
+    }
+    .authorization {
+        display: none;
+        font-size: 14px;
+    }
+    .main_menu a:last-child {
+        width: 157px;
+        margin-top: 29px;
+        padding: 0;
+        display: flex;
+        margin-right: 0px;
+        color: #FFFFFF;
+    }
+  }
+  @media (max-width: 663px) {
+    .main_profile {
+        justify-content: center;
+        border-radius: 83px 83px 38px 38px;
+        display: flex;
+        background: url("../img/Group 43 (1).svg") no-repeat;
+        width: 91%;
+        flex-wrap: wrap;
+        margin: 17px auto 0 auto;
+        background-size: cover;
+    }
+    .top_block {
+        height: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 75%;
+        margin: 39px auto 0 auto;
+        display: flex;
+    }
+    .table {
+        border-radius: 38px 38px 38px 38px;
+        display: flex;
+        background: url("../img/Group 44 (1).svg") no-repeat;
+        width: 91%;
+        height: 100vh;
+        flex-wrap: wrap;
+        margin: 17px auto 30px auto;
+        background-size: cover;
+    }
+    .name_page {
+        background: url("../img/Group 40.svg") no-repeat;
+        border-radius: 46px 46px 38px 38px;
+        justify-content: center;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        width: 91%;
+        height: 32.7vw;
+        margin: 3vw auto 0 auto;
+        background-size: cover;
+    }
+    .logoUpdateProfile {
+        top: 3.3%;
+        right: 32%;
+        width: 36%;
+        position: absolute;
+        padding-left: 0;
+    }
+    .schedule button {
+        top: -64%;
+        position: relative;
+        padding: 8px 35px;
+        color: #FFFFFF;
+        border-top-right-radius: 5px;
+        border-left: none;
+        border-right: 1px solid;
+        border-top: 1px solid;
+        border-bottom: 1px solid;
+        font-family: 'stolzl_light Light';
+        letter-spacing: 1px;
+        background: transparent;
+        cursor: pointer;
+        margin-left: 0%;
+    }
+    .main_site button {
+        top: -50%;
+        position: relative;
+        padding: 8px 35px;
+        font-size: 14px;
+        color: #FFFFFF;
+        border-top-right-radius: 5px;
+        border-left: none;
+        border-right: 1px solid;
+        border-top: 1px solid;
+        border-bottom: 1px solid;
+        font-family: 'stolzl_light Light';
+        letter-spacing: 1px;
+        background: transparent;
+        cursor: pointer;
+        margin: 0 auto;
+        margin-left: auto;
+    }
+    .schedule {
+        background: url("../img/Group 32 (1).png") no-repeat;
+        width: 100%;
+        display: flex;
+        text-align: center;
+        height: 31.3vw;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-right: 0px;
+        background-size: cover;
+    }
+    .profile {
+        background: url("../img/Group 31 (6).png") no-repeat;
+
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 31.3vw;
+        background-size: cover;
+    }
+    .profile img {
+        padding-top: 0.6%;
+        margin: 0 auto;
+        width: 30vw;
+        height: auto;
+        flex-grow: 0;
+    }
+    .profile div {
+        padding-top: 6%;
+        display: flex;
+        height: auto;
+        width: 100%;
+        justify-content: center;
+        align-items: end;
+        margin: 0 auto;
+    }
+    .busy_day {
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 17px;
+        margin-right: 0px;
+        width: 100%;
+        height: 31.3vw;
+        background: url("../img/Group 33 (1).png") no-repeat;
+        background-size: cover;
+    }
+    .busy_day p {
+        margin-left: 0;
+        margin-top: 5%;
+        margin-bottom: 0;
+        line-height: 3vw;
+    }
+    .main_site {
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 17px;
+        width: 100%;
+        height: 31.3vw;
+    }
+    .busy_day h1 {
+        color: #FFFFFF;
+        font-family: 'stolzl_light Light';
+        left: 0;
+        margin: 0;
+        position: relative;
+        font-size: 14vw;
+        width: 100%;
+    }
+  }
+  @media (max-width: 500px) {
+    .bottom_block {
+        margin: 0 auto;
+        width: 100%;
+        height: 80%;
+        overflow: auto;
+    }
+    .info_text {
+        text-align: center;
+        /* position: relative; */
+        width: 228px;
+        margin: 16px auto 0 auto;
+        left: 4px;
+    }
+    .top_block {
+        height: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        margin: 39px auto 0 auto;
+        display: flex;
+    }
+    .table_table td {
+        width: 187px;
+        text-align: center;
+        font-family: 'stolzl_light Light';
+        font-size: 15px;
+        font-weight: 300;
+        color: white;
+        border: 1px solid #dddddd;
+        height: 80px;
+    }
+    .photo {
+        right: 0px;
+        /* width: 37%; */
+        width: 65%;
+        /* margin-right: 0%; */
+        /* height: 100%; */
+        margin: 0 auto;
+        /* position: relative; */
+        /* left: 24vw; */
+    }
+    .bottom_block::-webkit-scrollbar {
+        width: 0px;
+        height: 0px;
+    }
+    .main_profile {
+        justify-content: center;
+        border-radius: 83px 83px 38px 38px;
+        display: flex;
+        background: url("../img/Group 43 (1).svg") no-repeat;
+        width: 91%;
+        flex-wrap: wrap;
+        margin: 17px auto 0 auto;
+        background-size: cover;
+    }
+    headerprofile {
+        padding: 37px 10px 0px 10px;
+        max-width: 91%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0 auto;
+    }
+    .name h1 {
+        margin: 0;
+        color: #FFFFFF;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 24px;
+        font-family: 'stolzl_light Light';
+        font-weight: 100;
+    }
+    .name_page {
+        border-radius: 46px 46px 38px 38px;
+        justify-content: center;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        background: url("../img/Group 40.svg") no-repeat;
+        width: 91%;
+        height: 32.7vw;
+        margin: 3vw auto 0 auto;
+        background-size: cover;
+    }
+    .logoUpdateProfile {
+        top: 3.6%;
+        right: 26%;
+        width: 47%;
+        position: absolute;
+        padding-left: 0;
+    }
+    .schedule {
+        background: url("../img/Group 28.svg") no-repeat;
+        width: 100%;
+        display: flex;
+        text-align: center;
+        height: 85vw;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-right: 0px;
+        background-size: cover;
+    }
+    .schedule p {
+        color: #FFFFFF;
+        font-family: 'stolzl_light Light';
+        margin: 14px 0px;
+        font-size: 5vw;
+        width: 100%;
+    }
+    .schedule button {
+        top: -56%;
+        position: relative;
+        padding: 8px 35px;
+        color: #FFFFFF;
+        border-top-right-radius: 5px;
+        border-left: none;
+        border-right: 1px solid;
+        border-top: 1px solid;
+        border-bottom: 1px solid;
+        font-family: 'stolzl_light Light';
+        letter-spacing: 1px;
+        background: transparent;
+        cursor: pointer;
+        margin-left: 0%;
+        font-size: 5vw;
+    }
+    .profile {
+        background: url("../img/Group 35.svg") no-repeat;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 85vw;
+        background-size: cover;
+    }
+    .profile img {
+        object-fit: cover;
+        padding-top: 1%;
+        margin: 0 auto;
+        width: 73vw;
+        height: auto;
+        flex-grow: 0;
+    }
+    .profile div {
+        padding-top: 0%;
+        display: flex;
+        height: auto;
+        width: 100%;
+        justify-content: center;
+        align-items: end;
+        margin: 0 auto;
+    }
+    .profile div p {
+        font-size: 5vw;
+    }
+    .menu_logo {
+        display: flex;
+        width: 72vw;
+        align-items: center;
+    }
+    .busy_day {
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 17px;
+        margin-right: 0px;
+        width: 100%;
+        height: 85vw;
+        background: url("../img/Group 36.svg") no-repeat;
+        background-size: cover;
+    }
+    .busy_day p {
+        margin: 0 auto;
+        width: 87%;
+        margin-top: 12%;
+        font-size: 5vw;
+        margin-bottom: 0;
+        line-height: 6vw;
+    }
+    .busy_day p br{
+        display: none;
+    }
+    .busy_day h1 {
+        color: #FFFFFF;
+        font-family: 'stolzl_light Light';
+        left: 0;
+        margin: 0;
+        position: relative;
+        font-size: 37vw;
+        width: 100%;
+    }
+    .busy_day p:last-child {
+        font-size: 5vw;
+        margin: 0;
+        letter-spacing: 1px;
+        position: relative;
+        margin-top: 0;
+        top: -7%;
+    }
+    .main_site {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 17px;
+        padding-top: 0px;
+        width: 100%;
+        background: url("../img/Group 37.png") no-repeat;
+        height: 85vw;
+        background-size: cover;
+    }
+    .main_site .main_text p {
+        font-size: 5vw;
+    }
+    .main_site img {
+        opacity: 0;
+        width: 100%;
+        height: 100%;
+    }
+    .close {
+        display: block;
+        position: relative;
+        left: 39vw;
+        top: 4vw;
+    }
+    .main_menu a {
+        font-size: 16px;
+    }
+    .block_menu {
+        background: url("../img/image 1.svg") no-repeat;
+        background-size: cover;
+    }
+    .main_site button {
+        top: -50%;
+        position: relative;
+        padding: 8px 35px;
+        font-size: 5vw;
+        color: #FFFFFF;
+        border-top-right-radius: 5px;
+        border-left: none;
+        border-right: 1px solid;
+        border-top: 1px solid;
+        border-bottom: 1px solid;
+        font-family: 'stolzl_light Light';
+        letter-spacing: 1px;
+        background: transparent;
+        cursor: pointer;
+        margin: 0 auto;
+        margin-left: auto;
+    }
+    @keyframes openMenu {
+        0%{
+            display: block;
+            width: 0vw;
+            opacity: 0;   
+        }
+        100%{
+            width: 100vw;
+            display: block;
+            opacity: 1;
+        }
+    }
+    @keyframes closeMenu {
+        0%{
+            width: 50vw;
+            opacity: 0;   
+        }
+        100%{
+            width: 0vw;
+            opacity: 0;
+            display: none;
+        }
+    }
+    @media (max-width: 403px) {
+        .name_page h1 {
+            width: 80%;
+            font-weight: 300;
+            font-family: 'stolzl_light Light';
+            font-size: 20px;
+            color: #FFFFFF;
+        }
+    }
+    @media (max-width: 376px) {
+        .top_block {
+            height: auto;
+            flex-wrap: wrap;
+            justify-content: center;
+            width: 100%;
+            margin: 39px auto 0 auto;
+            display: flex;
+        }
+        .logoUpdateProfile {
+            top: 3.9%;
+            right: 26%;
+            width: 47%;
+            position: absolute;
+            padding-left: 0;
+        }
+        
+    }
+  }

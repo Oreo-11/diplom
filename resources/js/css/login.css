@@ -1,0 +1,1869 @@
+@font-face {
+	font-family: 'Calleo-Trial Light'; 
+	src: url(../fonts/Calleo-Trial-Light.ttf); 
+}
+@font-face {
+	font-family: 'stolzl_light Light'; 
+	src: url(../fonts/stolzl_light.ttf); 
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: #E9E5FF;
+}
+.theme{
+    width: 39px;
+}
+.theme img{
+    width: 100%;
+}
+headerlogin {
+    padding: 37px 10px 0px 10px;
+    max-width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.menu_logo{
+    display: flex;
+    align-items: center;
+}
+.authorization_theme{
+    display: flex;
+    align-items: center;
+}
+.menu{
+    cursor: pointer;
+}
+.line{
+    padding: 0px 44px;
+    width: 41%;
+}
+.line img{
+    height: 1px;
+    width: 100%;
+}
+.logoLogin{
+    width: 178px;
+}
+.logoLogin img{
+    width: 100%;
+}
+.authorization{
+    cursor: pointer;
+    margin-right: 73px;
+    width: 157px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 39px;
+    background: url(../img/Group\ 23.png) no-repeat;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);;
+    font-family: Calleo-Trial Light;
+}
+.main_menu a:last-child {
+    display: none;
+}
+.authorization_phone{
+    display: none;
+    cursor: pointer;
+    margin-right: 73px;
+    width: 157px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 39px;
+    background: url(../img/Group\ 23.png) no-repeat;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);;
+    font-family: Calleo-Trial Light;
+}
+.theme{
+    cursor: pointer;
+}
+.main_block{
+    max-width: 80%;
+    margin: 72px auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 10px 0px 10px;
+}
+
+
+
+
+.block_menu{
+    display: none;
+    background: url("../img/image 1.png") no-repeat;
+    position: fixed;
+    width: 0vw;
+    opacity: 0;
+    text-align: center;
+    height: 100vh;
+    z-index: 2;
+    background-size: cover;
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
+    animation-name: openMenu;
+}
+.main_menu{
+    padding-top: 4vw;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.main_menu a{
+    font-size: 16px;
+    padding-top: 29px;
+    width: 100%;
+    color: black;
+    text-decoration: none;
+    font-family: Calleo-Trial Light;
+}
+.black_menu{
+    display: none;
+    z-index: 1;
+    position: fixed;
+    width: 100vw;
+    background: #000;
+    opacity: 0.59;
+    height: 100vh;
+    animation-duration: 0.1s;
+    animation-fill-mode: forwards;
+    animation-name: openMenuBlack;
+}
+.close{
+    display: none;
+    position: relative;
+    left: 19vw;
+    top: 4vw;
+}
+.create_userLogin{
+    padding-top: 1vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 470px;
+}
+input[type="text"]::placeholder{
+    color: #000;
+    font-size: 16px;
+}
+input[type="text"]{
+    font-size: 16px;
+    font-family: 'stolzl_light Light';
+    outline: none;
+    color: #000;
+    padding-left: 16px;
+    width: 100%;
+    background-color: #E9E5FF;
+    border: none;
+    height: 49px;
+    margin-bottom: 17px;
+    border-radius: 14px;
+}
+input[type="text"]:nth-child(5){
+    background: url("../img/Calendar.svg") no-repeat;
+    background-size: 24px;
+    background-position: 85%;
+    cursor: pointer;
+    color: #000;
+    font-size: 16px;
+    width: 198px;
+    background-color: #E9E5FF;
+    border: none;
+    height: 49px;
+    margin-bottom: 17px;
+    margin-right: 32%;
+    border-radius: 14px;
+}
+input[type="date"]::after{
+    width: 215px;
+    font-family: 'stolzl_light Light';
+    background-color: #000;
+}
+input[type="date"]{
+    font-family: 'stolzl_light Light';
+    padding-left: 16px;
+    cursor: pointer;
+    width: 200px;
+    background-color: #E9E5FF;
+    border: none;
+    outline: none;
+    height: 51px;
+    color: #000;
+    font-size: 16px;
+    margin-bottom: 17px;
+    margin-right: 32%;
+    border-radius: 14px;
+}
+::-webkit-calendar-picker-indicator{
+    background: url("../img/Calendar.svg") no-repeat;
+    background-size: 24px;
+    padding: 5px;
+    cursor: pointer;
+    position: relative;
+    right: 27px;
+    top: 1px;
+}
+.create_userLogin h1{
+    margin-bottom: 25px;
+    font-size: 24px;
+    font-family: 'stolzl_light Light';
+    color: white;
+    font-weight: 300;
+}
+#man{
+    margin-bottom: 17px;
+    cursor: pointer;
+    width: 104px;
+    height: 49px;
+    opacity: 0.75;
+    border: none;
+    border-radius: 14px;
+    background-color: #E9E5FF;
+}
+#women{
+    margin-right: 54%;
+    opacity: 0.75;
+    margin-left: 7px;
+    cursor: pointer;
+    width: 104px;
+    height: 49px;
+    border: none;
+    border-radius: 14px;
+    background-color: #E9E5FF;
+}
+.roles{
+    outline: none;
+    width: 215px;
+   cursor: pointer;
+   display: block; 
+   font-size: 16px; 
+   font-family: 'stolzl_light Light';
+   color: #000000; 
+   line-height: 1.3; 
+   padding: .6em 1.4em .5em .8em;
+   box-sizing: border-box; 
+   margin: 0; 
+   border: none;
+   border-radius: 14px;
+   -moz-appearance: none;
+   -webkit-appearance: none;
+   appearance: none;
+   background-color: #E9E5FF; 
+   background-image: url('../img/Avatar.svg'); 
+   background-repeat: no-repeat, repeat;
+   background-position: right 1.69em top 50%, 0 0;
+   background-size: 24px;
+   height: 49px;
+   margin-right: 13%;
+   margin-bottom: 17px;
+}
+.new_userLogin{
+    /* top: -31%; */
+    margin-top: 1vw;
+    position: relative;
+    padding: 8px 35px;
+    font-size: 18px;
+    color: #FFFFFF;
+    border-top-right-radius: 5px;
+    border-left: none;
+    border-right: 1px solid;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    font-family: 'stolzl_light Light';
+    width: 200px;
+    letter-spacing: 1px;
+    background: transparent;
+    cursor: pointer;
+
+}
+.roles_users{
+    padding-bottom: 14%;
+    padding-top: 1vw;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 90px;
+    width: 470px;
+}
+.roles_users h1{
+    margin-bottom: 25px;
+    font-size: 24px;
+    font-family: 'stolzl_light Light';
+    color: white;
+    font-weight: 300;
+}
+.roles_edit{
+    outline: none;
+    width: 100%;
+   cursor: pointer;
+   display: block; 
+   font-size: 16px; 
+   font-family: 'stolzl_light Light';
+   color: #000000; 
+   line-height: 1.3; 
+   padding: .6em 1.4em .5em .8em;
+   box-sizing: border-box; 
+   margin: 0; 
+   border: none;
+   border-radius: 14px;
+   -moz-appearance: none;
+   -webkit-appearance: none;
+   appearance: none;
+   background-color: #E9E5FF; 
+   background-image: url('../img/Avatar.svg'); 
+   background-repeat: no-repeat, repeat;
+   background-position: right 2.5em top 50%, 0 0;
+   background-size: 24px;
+   height: 49px;
+   margin-bottom: 17px;
+}
+.edit_prava_user{
+    width: 394px;
+    height: 49px;
+    background: #E9E5FF;;
+    border: none;
+    border-radius: 14px;
+    font-size: 16px;
+    font-family: 'stolzl_light Light';
+    color: #000000;
+    cursor: pointer;
+    margin-bottom: 17px;
+}
+.new_role{
+    width: 215px;
+    height: 49px;
+    background: #E9E5FF;;
+    border: none;
+    border-radius: 14px;
+    font-size: 16px;
+    font-family: 'stolzl_light Light';
+    color: #000000;
+    cursor: pointer;
+}
+.eding_roles{
+    display: none;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 2;
+    animation-name: '';
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+.title_top_edit{
+    padding-left: 95px;
+}
+.line_off{
+    width: 0%;
+    padding: 0px 0px;
+    opacity: 0;
+}
+.name_pageLogin {
+    border-radius: 46px 46px 38px 38px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    background: url("../img/Group 38 (5).svg") no-repeat;
+    width: 80%;
+    height: 7.7vw;
+    margin: 1vw auto 0 auto;
+    background-size: cover;
+}
+.name_pageLogin h1{
+    font-weight: 300;
+    font-family: 'stolzl_light Light';
+    font-size: 24px;
+    color: #FFFFFF;
+}
+.login{
+    border-radius: 38px;
+    background: url("../img/Group 39 (1).svg") no-repeat;
+    width: 80%;
+    height: 62vh;
+    margin: 0.8vw auto 198px auto;
+    background-size: cover;
+}
+.button_on_or_off{
+    margin-right: 64px;
+    cursor: pointer;
+    width: 110px;
+    height: 42px;
+    display: flex;
+    background-color: #7660F9;
+    border-radius: 20px;
+    align-items: center;
+}
+.button_on_or_off .param{
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    animation-name: '';
+    display: flex;
+    justify-content: center;
+    background: #E9E5FF;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #7D68F5;
+    border-radius: 100%;
+}
+.button_on_or_off div h1{
+    font-family: 'stolzl_light Light';
+    font-size: 16px;
+    color: #7D68F5;
+    font-weight: 500;
+}
+@keyframes trueParam {
+    0%{
+        position: relative;
+        left: 0;
+    }
+    100%{
+        position: relative;
+        left: 70px;
+    }
+}
+@keyframes falseParam {
+    0%{
+        position: relative;
+        left: 70px;
+    }
+    100%{
+        position: relative;
+        left: 0px;
+    }
+}
+.authorization_edit{
+    cursor: pointer;
+    margin-right: 73px;
+    width: 22px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 39px;
+    background: url("../img/Vector (1).svg") no-repeat;
+    background-position: right;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+    font-family: Calleo-Trial Light;
+}
+.fon_eding{
+    margin: auto;
+    background: #E9E5FF;
+    width: 80%;
+    height: 80vh;
+    border-radius: 33px;
+}
+.top_block h1{
+    font-size: 24px;
+    color: #7D68F5;
+    font-family: 'stolzl_light Light';
+    font-weight: 500;
+}
+.bottom_block div p{
+    font-size: 16px;
+    font-family: 'stolzl_light Light';
+    font-weight: 500;
+}
+.top_block{
+    padding-top: 2.5%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2.5%;
+}
+.theme_edit img{
+    opacity: 0;
+}
+.title_bot_edit{
+    margin-left: 95px;
+}
+.title_bot_edit h1{
+    font-family: 'stolzl_light Light';
+    font-weight: 500;
+    font-size: 16px;
+}
+.line_true{
+    width: 100%;
+    height: 1px;
+    background-color: #7D68F5;
+    margin-right: 64px;
+}
+.div_block{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    height: 1px;
+}
+@keyframes openEding {
+    0%{
+        display: none;
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+        display: flex;
+    }
+}
+@keyframes closeEding {
+    0%{
+        opacity: 1;
+        display: flex;
+    }
+    100%{
+        display: none;
+        opacity: 0;
+    }
+}
+.onOrOff{
+    justify-content: space-between;
+    z-index: 4;
+    display: flex;
+}
+.create_roles{
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    animation-name: '';
+    display: none;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 2;
+    animation-name: '';
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+#aut_no{
+    display: none;
+}
+#new_role_title{
+    margin-bottom: 27px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border-radius: 14px;
+    width: 470px;
+    height: 49px;
+}
+#new_role_title h1{
+    padding-left: 16px;
+    font-family: 'stolzl_light Light';
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+#new_role_title_input{
+    color: #FFFFFF;
+    background-color: #7660F9;
+}
+#new_role_title_input::placeholder{
+    color: #FFFFFF;
+}
+.create_roles_button{
+    width: 208px;
+    margin-top: 23px;
+    border: none;
+    cursor: pointer;
+    border-radius: 14px;
+    height: 49px;
+    display: flex;
+    align-items: center;
+    background-color: #7660F9;
+}
+.create_roles_button h1{
+    margin: 0 auto;
+    color: #FFFFFF;
+}
+@media (max-width: 1401px) { 
+    .schedule button {
+        font-size: 14px;
+    }
+    .schedule p {
+        color: #FFFFFF;
+        font-family: 'stolzl_light Light';
+        margin: 0;
+        font-size: 14px;
+    }
+    .profile div p{
+        font-size: 14px;
+    }
+    .busy_day p{
+        font-size: 14px;
+    }
+    .main_site .main_text p{
+        font-size: 14px;
+    }
+    .main_site button {
+        font-size: 14px;
+    }
+    .authorization{
+        font-size: 14px;
+    }
+    .main_menu a{
+        font-size: 14px;
+    }
+ }
+
+
+ @media (max-width: 1212px) { 
+    .schedule p {
+        width: 60vw;
+    }
+ }
+
+ @keyframes openMenu {
+    0%{
+        display: block;
+        width: 0vw;
+        opacity: 0;   
+    }
+    100%{
+        width: 23vw;
+        display: block;
+        opacity: 1;
+    }
+}
+@keyframes openMenuBlack {
+    0%{
+        display: block;
+        opacity: 0;   
+    }
+    100%{
+        opacity: 0.59;
+        display: block;
+    }
+}
+
+@keyframes closeMenu {
+    0%{
+        width: 23vw;
+        opacity: 1;   
+    }
+    100%{
+        width: 0vw;
+        opacity: 0;
+        display: none;
+    }
+}
+@keyframes closeMenuBlack {
+    0%{
+        opacity: 0.59;   
+    }
+    100%{
+        opacity: 0;
+        display: none;
+    }
+}
+ @media (max-width: 1105px) { 
+    .close{
+        display: block;
+        position: relative;
+        left: 19vw;
+        top: 4vw;
+    }
+    .name_pageLogin {
+        border-radius: 46px 46px 38px 38px;
+        justify-content: center;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        background: url("../img/Group 38 (5).svg") no-repeat;
+        width: 80%;
+        height: 12.7vw;
+        margin: 1vw auto 0 auto;
+        background-size: cover;
+    }
+    .schedule {
+        width: 100%;
+        display: flex;
+        text-align: center;
+        height: 27.3vw;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-right: 0px;
+        background-size: cover;
+    }
+    .schedule button {
+        top: -42%;
+        position: relative;
+        padding: 8px 35px;
+        color: #FFFFFF;
+        border-top-right-radius: 5px;
+        border-left: none;
+        border-right: 1px solid;
+        border-top: 1px solid;
+        border-bottom: 1px solid;
+        font-family: 'stolzl_light Light';
+        letter-spacing: 1px;
+        background: transparent;
+        cursor: pointer;
+        margin-left: 0%;
+    }
+    .schedule p {
+        color: #FFFFFF;
+        font-family: 'stolzl_light Light';
+        margin: 14px 0px;
+        font-size: 14px;
+        width: 100%;
+    }
+    .schedule div.main_text {
+        top: -88%;
+        position: relative;
+        width: 100%;
+        padding-left: 0%;
+    }
+    .head_block {
+        width: 100%;
+        flex-wrap: wrap;
+        display: flex;
+        align-items: center;
+    }
+    .profile {
+        background: url("../img/Group 29 (5).svg") no-repeat;
+        margin-top: 17px;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 27.3vw;
+        background-size: cover;
+    }
+    .profile div {
+        padding-top: 5%;
+        display: flex;
+        height: auto;
+        width: 100%;
+        justify-content: center;
+        align-items: end;
+        margin: 0 auto;
+    }
+    .profile img {
+        padding-top: 2%;
+        margin: 0 auto;
+        width: 26vw;
+        height: auto;
+        flex-grow: 0;
+    }
+    .foot_block {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .busy_day {
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 17px;
+        margin-right: 0px;
+        width: 100%;
+        height: 27.3vw;
+        background: url("../img/Group 30 (2).svg") no-repeat;
+        background-size: cover;
+    }
+    .schedule div.main_text {
+        top: -88%;
+        position: relative;
+        width: 100%;
+        padding-left: 0;
+    }
+    .busy_day p {
+        margin-left: 0;
+        margin-top: 5%;
+        margin-bottom: 0;
+        line-height: 2vw;
+    }
+    .busy_day p:last-child {
+        margin-left: 0;
+        font-size: 14px;
+        margin: 0;
+        position: relative;
+        margin-top: 0;
+        top: -7%;
+    }
+    .busy_day h1 {
+        color: #FFFFFF;
+        font-family: 'stolzl_light Light';
+        left: 0;
+        margin: 0;
+        position: relative;
+        font-size: 9vw;
+        width: 100%;
+    }
+    .main_site {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 17px;
+        width: 100%;
+        height: 27.3vw;
+    }
+    .main_site .main_text {
+        top: -88%;
+        text-align: center;
+        position: relative;
+        width: 100%;
+        padding-left: 0;
+    }
+    .main_site button {
+        top: -31%;
+        position: relative;
+        padding: 8px 35px;
+        font-size: 14px;
+        color: #FFFFFF;
+        border-top-right-radius: 5px;
+        border-left: none;
+        border-right: 1px solid;
+        border-top: 1px solid;
+        border-bottom: 1px solid;
+        font-family: 'stolzl_light Light';
+        letter-spacing: 1px;
+        background: transparent;
+        cursor: pointer;
+        margin: 0 auto;
+        margin-left: auto;
+    }
+    @keyframes openMenu {
+        0%{
+            display: block;
+            width: 50vw;
+            opacity: 0;   
+        }
+        100%{
+            width: 50vw;
+            display: block;
+            opacity: 1;
+        }
+    }
+    @keyframes closeMenu {
+        0%{
+            width: 50vw;
+            opacity: 0;   
+        }
+        100%{
+            width: 0vw;
+            opacity: 0;
+            display: none;
+        }
+    }
+ }
+ @media (max-width: 810px) { 
+    .schedule button {
+        top: -48%;
+        position: relative;
+        padding: 8px 35px;
+        color: #FFFFFF;
+        border-top-right-radius: 5px;
+        border-left: none;
+        border-right: 1px solid;
+        border-top: 1px solid;
+        border-bottom: 1px solid;
+        font-family: 'stolzl_light Light';
+        letter-spacing: 1px;
+        background: transparent;
+        cursor: pointer;
+        margin-left: 0%;
+    }
+    .main_site button {
+        top: -37%;
+        position: relative;
+        padding: 8px 35px;
+        font-size: 14px;
+        color: #FFFFFF;
+        border-top-right-radius: 5px;
+        border-left: none;
+        border-right: 1px solid;
+        border-top: 1px solid;
+        border-bottom: 1px solid;
+        font-family: 'stolzl_light Light';
+        letter-spacing: 1px;
+        background: transparent;
+        cursor: pointer;
+        margin: 0 auto;
+        margin-left: auto;
+    }
+ }
+ @media (max-width: 810px) {
+    #new_role_title_input {
+        color: #FFFFFF;
+        width: 86%;
+        background-color: #7660F9;
+    }
+    .create_userLogin {
+        padding-top: 1vw;
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 0px;
+        width: 78%;
+    }
+    input[type="text"]:nth-child(5) {
+        background: url(../img/Calendar.svg) no-repeat;
+        background-size: 24px;
+        background-position: 85%;
+        cursor: pointer;
+        color: #000;
+        font-size: 16px;
+        width: 198px;
+        background-color: #E9E5FF;
+        border: none;
+        height: 49px;
+        margin-bottom: 17px;
+        margin-right: 55%;
+        border-radius: 14px;
+    }
+    .roles_edit {
+        outline: none;
+        width: 100%;
+        cursor: pointer;
+        display: block;
+        font-size: 16px;
+        font-family: 'stolzl_light Light';
+        color: #000000;
+        line-height: 1.3;
+        padding: 0.6em 1.4em 0.5em 0.8em;
+        box-sizing: border-box;
+        margin: 0;
+        border: none;
+        border-radius: 14px;
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        appearance: none;
+        background-color: #E9E5FF;
+        background-image: url("");
+        background-repeat: no-repeat, repeat;
+        background-position: right 2.5em top 50%, 0 0;
+        background-size: 24px;
+        height: 49px;
+        margin-bottom: 17px;
+    }
+    .edit_prava_user {
+        width: 394px;
+        height: 49px;
+        background: #E9E5FF;
+        padding-left: 16px;
+        text-align: left;
+        border: none;
+        border-radius: 14px;
+        font-size: 16px;
+        font-family: 'stolzl_light Light';
+        color: #000000;
+        cursor: pointer;
+        margin-bottom: 17px;
+    }
+    #women {
+        margin-right: 6%;
+        opacity: 0.75;
+        margin-left: 7px;
+        cursor: pointer;
+        width: 104px;
+        height: 49px;
+        border: none;
+        border-radius: 14px;
+        background-color: #E9E5FF;
+    }
+    .roles_users {
+        padding-bottom: 14%;
+        padding-top: 1vw;
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 0px;
+        width: 78%;
+    }
+    .create_userLogin h1 {
+        margin: 25px auto;
+        margin-bottom: 25px;
+        font-size: 24px;
+        font-family: 'stolzl_light Light';
+        color: white;
+        font-weight: 300;
+    }
+    .login {
+        border-radius: 38px;
+        background: url("../img/Group 39 (1).svg") no-repeat;
+        width: 80%;
+        margin: 0.8vw auto 198px auto;
+        background-size: cover;
+    }
+    .name_pageLogin {
+        border-radius: 46px 46px 38px 38px;
+        justify-content: center;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        width: 80%;
+        height: 16.7vw;
+        margin: 1vw auto 0 auto;
+        background-size: cover;
+    }
+    .line {
+        padding: 0px 44px;
+        width: 41%;
+        display: none;
+    }
+    .authorization {
+        display: none;
+        font-size: 14px;
+    }
+    .main_menu a:last-child {
+        width: 157px;
+        margin-top: 29px;
+        padding: 0;
+        display: flex;
+        margin-right: 0px;
+        color: #FFFFFF;
+    }
+  }
+  @media (max-width: 769px) {
+    .fon_eding {
+        margin: auto;
+        background: #E9E5FF;
+        width: 100vw;
+        height: 100vh;
+        border-radius: 0px;
+    }
+    .top_block {
+        padding-top: 15.5%;
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 2.5%;
+    }
+    .onOrOff {
+        justify-content: center;
+        z-index: 4;
+        flex-wrap: wrap;
+        display: flex;
+    }
+    .menu_logo {
+        display: flex;
+        width: 100%;
+        align-items: center;
+    }
+    .line_off {
+        width: 0%;
+        padding: 0px 0px;
+        opacity: 0;
+        display: none;
+    }
+    .button_on_or_off {
+        margin-right: 0px;
+        cursor: pointer;
+        width: 110px;
+        height: 42px;
+        display: flex;
+        background-color: #7660F9;
+        border-radius: 20px;
+        align-items: center;
+    }
+    .theme_edit {
+        display: none;
+    }
+    #new_role_title_input {
+        margin: 0 auto;
+        color: #FFFFFF;
+        width: 86%;
+        background-color: #7660F9;
+    }
+    .title_bot_edit {
+        margin-left: 0px;
+        text-align: center;
+        width: 100%;
+    }
+    .authorization_edit {
+        cursor: pointer;
+        margin-right: 0px;
+        width: 37px;
+        position: relative;
+        top: -85px;
+        right: 33px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 37px;
+        background: url("../img/Mask group.png") no-repeat;
+        background-position: right;
+        text-decoration: none;
+        color: rgba(255, 255, 255, 0.7);
+        font-family: Calleo-Trial Light;
+    }
+    .title_top_edit {
+        width: 100%;
+        margin: 0 auto;
+        padding-left: 0px;
+    }
+    .menu_logo {
+        display: flex;
+        width: 100%;
+        align-items: center;
+    }
+    .top_block h1 {
+        font-size: 24px;
+        text-align: center;
+        width: 84vw;
+        left: 9vw;
+        position: relative;
+        margin-top: 14%;
+        margin-bottom: 14%;
+        color: #7D68F5;
+        font-family: 'stolzl_light Light';
+        font-weight: 500;
+    }
+    #new_role_title_input {
+        margin: 0 auto;
+        color: #FFFFFF;
+        width: 86%;
+        background-color: #7660F9;
+    }
+    #new_role_title {
+        margin-bottom: 27px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        border-radius: 14px;
+        width: 100%;
+        height: 49px;
+    }
+    .create_roles_button {
+        width: 208px;
+        border: none;
+        margin: 23px auto;
+        cursor: pointer;
+        border-radius: 14px;
+        height: 49px;
+        display: flex;
+        align-items: center;
+        background-color: #7660F9;
+    }
+    .title_bot_edit {
+        margin-left: 0px;
+        text-align: center;
+        width: 100%;
+    }
+  }
+  @media (max-width: 663px) {
+    .fon_eding {
+        margin: auto;
+        background: #E9E5FF;
+        width: 100vw;
+        height: 100vh;
+        border-radius: 0px;
+    }
+    .top_block {
+        padding-top: 15.5%;
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 2.5%;
+    }
+    .onOrOff {
+        justify-content: center;
+        z-index: 4;
+        flex-wrap: wrap;
+        display: flex;
+    }
+    .menu_logo {
+        display: flex;
+        width: 100%;
+        align-items: center;
+    }
+    .line_off {
+        width: 0%;
+        padding: 0px 0px;
+        opacity: 0;
+        display: none;
+    }
+    .button_on_or_off {
+        margin-right: 0px;
+        cursor: pointer;
+        width: 110px;
+        height: 42px;
+        display: flex;
+        background-color: #7660F9;
+        border-radius: 20px;
+        align-items: center;
+    }
+    .theme_edit {
+        display: none;
+    }
+    #new_role_title_input {
+        margin: 0 auto;
+        color: #FFFFFF;
+        width: 86%;
+        background-color: #7660F9;
+    }
+    .title_bot_edit {
+        margin-left: 0px;
+        text-align: center;
+        width: 100%;
+    }
+    .authorization_edit {
+        cursor: pointer;
+        margin-right: 0px;
+        width: 37px;
+        position: relative;
+        top: -85px;
+        right: 33px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 37px;
+        background: url("../img/Mask group.png") no-repeat;
+        background-position: right;
+        text-decoration: none;
+        color: rgba(255, 255, 255, 0.7);
+        font-family: Calleo-Trial Light;
+    }
+    .title_top_edit {
+        width: 100%;
+        margin: 0 auto;
+        padding-left: 0px;
+    }
+    .menu_logo {
+        display: flex;
+        width: 100%;
+        align-items: center;
+    }
+    .top_block h1 {
+        font-size: 24px;
+        text-align: center;
+        width: 84vw;
+        left: 9vw;
+        position: relative;
+        margin-top: 14%;
+        margin-bottom: 14%;
+        color: #7D68F5;
+        font-family: 'stolzl_light Light';
+        font-weight: 500;
+    }
+    #new_role_title_input {
+        margin: 0 auto;
+        color: #FFFFFF;
+        width: 86%;
+        background-color: #7660F9;
+    }
+    .title_bot_edit {
+        margin-left: 0px;
+        text-align: center;
+        width: 100%;
+    }
+    headerlogin {
+        padding: 37px 10px 0px 10px;
+        max-width: 91%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0 auto;
+    }
+    .name_pageLogin {
+        background: url("../img/Group 40.svg") no-repeat;
+        border-radius: 46px 46px 38px 38px;
+        justify-content: center;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        width: 91%;
+        height: 32.7vw;
+        margin: 1vw auto 0 auto;
+        background-size: cover;
+    }
+    .login {
+        border-radius: 38px;
+        background: url("../img/Group 39 (1).svg") no-repeat;
+        width: 91%;
+        margin: 0.8vw auto 198px auto;
+        background-size: cover;
+    }
+    .schedule button {
+        top: -64%;
+        position: relative;
+        padding: 8px 35px;
+        color: #FFFFFF;
+        border-top-right-radius: 5px;
+        border-left: none;
+        border-right: 1px solid;
+        border-top: 1px solid;
+        border-bottom: 1px solid;
+        font-family: 'stolzl_light Light';
+        letter-spacing: 1px;
+        background: transparent;
+        cursor: pointer;
+        margin-left: 0%;
+    }
+    .main_site button {
+        top: -50%;
+        position: relative;
+        padding: 8px 35px;
+        font-size: 14px;
+        color: #FFFFFF;
+        border-top-right-radius: 5px;
+        border-left: none;
+        border-right: 1px solid;
+        border-top: 1px solid;
+        border-bottom: 1px solid;
+        font-family: 'stolzl_light Light';
+        letter-spacing: 1px;
+        background: transparent;
+        cursor: pointer;
+        margin: 0 auto;
+        margin-left: auto;
+    }
+    .schedule {
+        background: url("../img/Group 32 (1).png") no-repeat;
+        width: 100%;
+        display: flex;
+        text-align: center;
+        height: 31.3vw;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-right: 0px;
+        background-size: cover;
+    }
+    .profile {
+        background: url("../img/Group 31 (6).png") no-repeat;
+        margin-top: 17px;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 31.3vw;
+        background-size: cover;
+    }
+    .profile img {
+        padding-top: 0.6%;
+        margin: 0 auto;
+        width: 30vw;
+        height: auto;
+        flex-grow: 0;
+    }
+    .profile div {
+        padding-top: 6%;
+        display: flex;
+        height: auto;
+        width: 100%;
+        justify-content: center;
+        align-items: end;
+        margin: 0 auto;
+    }
+    .busy_day {
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 17px;
+        margin-right: 0px;
+        width: 100%;
+        height: 31.3vw;
+        background: url("../img/Group 33 (1).png") no-repeat;
+        background-size: cover;
+    }
+    .busy_day p {
+        margin-left: 0;
+        margin-top: 5%;
+        margin-bottom: 0;
+        line-height: 3vw;
+    }
+    .main_site {
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 17px;
+        width: 100%;
+        height: 31.3vw;
+    }
+    .busy_day h1 {
+        color: #FFFFFF;
+        font-family: 'stolzl_light Light';
+        left: 0;
+        margin: 0;
+        position: relative;
+        font-size: 14vw;
+        width: 100%;
+    }
+  }
+  @media (max-width: 500px) {
+    .create_userLogin h1 {
+        margin: 25px auto;
+        text-align: center;
+        margin-bottom: 25px;
+        font-size: 24px;
+        font-family: 'stolzl_light Light';
+        color: white;
+        font-weight: 300;
+    }
+    .roles_users h1 {
+        text-align: center;
+        margin-bottom: 25px;
+        font-size: 24px;
+        font-family: 'stolzl_light Light';
+        color: white;
+        font-weight: 300;
+    }
+    .name_pageLogin {
+        border-radius: 46px 46px 38px 38px;
+        justify-content: center;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        background: url("../img/Group 40.svg") no-repeat;
+        width: 80%;
+        height: 32.7vw;
+        margin: 3vw auto 0 auto;
+        background-size: cover;
+    }
+    .schedule {
+        background: url("../img/Group 28.svg") no-repeat;
+        width: 100%;
+        display: flex;
+        text-align: center;
+        height: 85vw;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-right: 0px;
+        background-size: cover;
+    }
+    .schedule p {
+        color: #FFFFFF;
+        font-family: 'stolzl_light Light';
+        margin: 14px 0px;
+        font-size: 5vw;
+        width: 100%;
+    }
+    .schedule button {
+        top: -56%;
+        position: relative;
+        padding: 8px 35px;
+        color: #FFFFFF;
+        border-top-right-radius: 5px;
+        border-left: none;
+        border-right: 1px solid;
+        border-top: 1px solid;
+        border-bottom: 1px solid;
+        font-family: 'stolzl_light Light';
+        letter-spacing: 1px;
+        background: transparent;
+        cursor: pointer;
+        margin-left: 0%;
+        font-size: 5vw;
+    }
+    .profile {
+        background: url("../img/Group 35.svg") no-repeat;
+        margin-top: 17px;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 85vw;
+        background-size: cover;
+    }
+    .profile img {
+        padding-top: 1%;
+        margin: 0 auto;
+        width: 73vw;
+        height: auto;
+        flex-grow: 0;
+    }
+    .profile div {
+        padding-top: 0%;
+        display: flex;
+        height: auto;
+        width: 100%;
+        justify-content: center;
+        align-items: end;
+        margin: 0 auto;
+    }
+    .profile div p {
+        font-size: 5vw;
+    }
+    #new_role_title {
+        margin-bottom: 27px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        border-radius: 14px;
+        width: 100%;
+        height: 49px;
+    }
+    .create_roles_button {
+        width: 208px;
+        margin-top: 23px;
+        margin: 23px auto;
+        border: none;
+        cursor: pointer;
+        border-radius: 14px;
+        height: 49px;
+        display: flex;
+        align-items: center;
+        background-color: #7660F9;
+    }
+    headerlogin {
+        padding: 37px 10px 0px 10px;
+        max-width: 91%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0 auto;
+    }
+    .name_pageLogin {
+        border-radius: 46px 46px 38px 38px;
+        justify-content: center;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        background: url("../img/Group 40.svg") no-repeat;
+        width: 91%;
+        height: 32.7vw;
+        margin: 3vw auto 0 auto;
+        background-size: cover;
+    }
+    .login {
+        border-radius: 38px;
+        background: url("../img/Group 39 (1).svg") no-repeat;
+        width: 91%;
+        margin: 17px auto 198px auto;
+        background-size: cover;
+    }
+    .busy_day {
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 17px;
+        margin-right: 0px;
+        width: 100%;
+        height: 85vw;
+        background: url("../img/Group 36.svg") no-repeat;
+        background-size: cover;
+    }
+    .busy_day p {
+        margin: 0 auto;
+        width: 87%;
+        margin-top: 12%;
+        font-size: 5vw;
+        margin-bottom: 0;
+        line-height: 6vw;
+    }
+    .busy_day p br{
+        display: none;
+    }
+    .busy_day h1 {
+        color: #FFFFFF;
+        font-family: 'stolzl_light Light';
+        left: 0;
+        margin: 0;
+        position: relative;
+        font-size: 37vw;
+        width: 100%;
+    }
+    .busy_day p:last-child {
+        font-size: 5vw;
+        margin: 0;
+        letter-spacing: 1px;
+        position: relative;
+        margin-top: 0;
+        top: -7%;
+    }
+    .main_site {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 17px;
+        padding-top: 0px;
+        width: 100%;
+        background: url("../img/Group 37.png") no-repeat;
+        height: 85vw;
+        background-size: cover;
+    }
+    .main_site .main_text p {
+        font-size: 5vw;
+    }
+    .main_site img {
+        opacity: 0;
+        width: 100%;
+        height: 100%;
+    }
+    .close {
+        display: block;
+        position: relative;
+        left: 39vw;
+        top: 4vw;
+    }
+    .main_menu a {
+        font-size: 16px;
+    }
+    .block_menu {
+        background: url("../img/image 1.svg") no-repeat;
+        background-size: cover;
+    }
+    .main_site button {
+        top: -50%;
+        position: relative;
+        padding: 8px 35px;
+        font-size: 5vw;
+        color: #FFFFFF;
+        border-top-right-radius: 5px;
+        border-left: none;
+        border-right: 1px solid;
+        border-top: 1px solid;
+        border-bottom: 1px solid;
+        font-family: 'stolzl_light Light';
+        letter-spacing: 1px;
+        background: transparent;
+        cursor: pointer;
+        margin: 0 auto;
+        margin-left: auto;
+    }
+    @keyframes openMenu {
+        0%{
+            display: block;
+            width: 0vw;
+            opacity: 0;   
+        }
+        100%{
+            width: 100vw;
+            display: block;
+            opacity: 1;
+        }
+    }
+    @keyframes closeMenu {
+        0%{
+            width: 50vw;
+            opacity: 0;   
+        }
+        100%{
+            width: 0vw;
+            opacity: 0;
+            display: none;
+        }
+    } 
+  }
+  @media (max-width: 403px) {
+    .fon_eding {
+        margin: auto;
+        background: #E9E5FF;
+        width: 100vw;
+        height: 100vh;
+        border-radius: 0px;
+    }
+    .top_block {
+        padding-top: 15.5%;
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 2.5%;
+    }
+    .menu_logo {
+        display: flex;
+        width: 100%;
+        align-items: center;
+    }
+    .top_block h1 {
+        font-size: 24px;
+        left: 6%;
+        text-align: center;
+        position: relative;
+        color: #7D68F5;
+        font-family: 'stolzl_light Light';
+        font-weight: 500;
+    }
+    .title_top_edit {
+        width: 100%;
+        margin: 0 auto;
+        padding-left: 0px;
+    }
+    .line_off {
+        width: 0%;
+        padding: 0px 0px;
+        opacity: 0;
+        display: none;
+    }
+    .onOrOff {
+        justify-content: center;
+        z-index: 4;
+        flex-wrap: wrap;
+        display: flex;
+    }
+    .title_bot_edit {
+        margin-left: 0px;
+        text-align: center;
+        width: 100%;
+    }
+    .roles {
+        outline: none;
+        width: 215px;
+        cursor: pointer;
+        display: block;
+        font-size: 16px;
+        font-family: 'stolzl_light Light';
+        color: #000000;
+        line-height: 1.3;
+        padding: 0.6em 1.4em 0.5em 0.8em;
+        box-sizing: border-box;
+        margin: 0;
+        border: none;
+        border-radius: 14px;
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        appearance: none;
+        background-color: #E9E5FF;
+        background-image: url(../img/Avatar.svg);
+        background-repeat: no-repeat, repeat;
+        background-position: right 1.69em top 50%, 0 0;
+        background-size: 24px;
+        height: 49px;
+        margin-right: 0;
+        margin-bottom: 17px;
+    }
+    #women {
+        margin-right: 0%;
+        opacity: 0.75;
+        margin-left: 7px;
+        cursor: pointer;
+        width: 104px;
+        height: 49px;
+        border: none;
+        border-radius: 14px;
+        background-color: #E9E5FF;
+    }
+    .authorization_edit {
+        cursor: pointer;
+        margin-right: 0px;
+        width: 37px;
+        position: relative;
+        top: -85px;
+        right: 33px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 37px;
+        background: url("../img/Mask group.png") no-repeat;
+        background-position: right;
+        text-decoration: none;
+        color: rgba(255, 255, 255, 0.7);
+        font-family: Calleo-Trial Light;
+    }
+    #new_role_title_input {
+        margin: 0 auto;
+        color: #FFFFFF;
+        width: 86%;
+        background-color: #7660F9;
+    }
+    .create_roles_button {
+        width: 208px;
+        margin: 23px auto;
+        border: none;
+        cursor: pointer;
+        border-radius: 14px;
+        height: 49px;
+        display: flex;
+        align-items: center;
+        background-color: #7660F9;
+    }
+    .top_block h1 {
+        font-size: 24px;
+        left: 6%;
+        position: relative;
+        margin-top: 14%;
+        margin-bottom: 14%;
+        color: #7D68F5;
+        font-family: 'stolzl_light Light';
+        font-weight: 500;
+    }
+    input[type="text"]:nth-child(5) {
+        background: url(../img/Calendar.svg) no-repeat;
+        background-size: 24px;
+        background-position: 85%;
+        cursor: pointer;
+        color: #000;
+        font-size: 16px;
+        width: 198px;
+        background-color: #E9E5FF;
+        border: none;
+        height: 49px;
+        margin-bottom: 17px;
+        margin-right: 0;
+        border-radius: 14px;
+    }
+    .create_userLogin {
+        padding-top: 1vw;
+        justify-content: center;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 0px;
+        width: 78%;
+    }
+    .roles_users {
+        padding-bottom: 14%;
+        padding-top: 1vw;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-left: 0px;
+        width: 78%;
+    }
+    .roles_users h1 {
+        text-align: center;
+        margin-bottom: 25px;
+        font-size: 20px;
+        font-family: 'stolzl_light Light';
+        color: white;
+        font-weight: 300;
+    }
+    .create_userLogin h1 {
+        margin: 25px auto;
+        text-align: center;
+        margin-bottom: 25px;
+        font-size: 20px;
+        font-family: 'stolzl_light Light';
+        color: white;
+        font-weight: 300;
+    }
+    .name_pageLogin h1 {
+        font-weight: 300;
+        font-family: 'stolzl_light Light';
+        font-size: 20px;
+        color: #FFFFFF;
+    }
+    input[type="date"]{
+        font-family: 'stolzl_light Light';
+        padding-left: 16px;
+        cursor: pointer;
+        width: 200px;
+        background-color: #E9E5FF;
+        border: none;
+        outline: none;
+        height: 51px;
+        color: #000;
+        font-size: 16px;
+        margin-bottom: 17px;
+        margin-right: 0%;
+        border-radius: 14px;
+    }
+    .theme_edit{
+        display: none;
+    }
+    .button_on_or_off {
+        margin-right: 0px;
+        cursor: pointer;
+        width: 110px;
+        height: 42px;
+        display: flex;
+        background-color: #7660F9;
+        border-radius: 20px;
+        align-items: center;
+    }
+  }
+  @media (max-width: 335px) {
+    .edit_prava_user {
+        width: 394px;
+        height: 72px;
+        background: #E9E5FF;
+        padding-left: 0px;
+        text-align: center;
+        border: none;
+        border-radius: 14px;
+        font-size: 16px;
+        font-family: 'stolzl_light Light';
+        color: #000000;
+        cursor: pointer;
+        margin-bottom: 17px;
+    }
+  }
